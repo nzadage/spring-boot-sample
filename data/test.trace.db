@@ -1,0 +1,21 @@
+2019-10-23 14:27:19 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM STANDARD 
+SELECT[*] * FROM SUBJECT"; SQL statement:
+SELECT * FROM STANDARD 
+SELECT * FROM SUBJECT [42000-199]
+2019-10-23 17:25:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM SUBJECT 
+
+DELETE FROM[*] SUBJECT"; SQL statement:
+SELECT * FROM SUBJECT 
+
+DELETE FROM SUBJECT [42000-199]
+2019-10-24 11:37:11 jdbc[33]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SUBJECT[*]"; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+SUBJECT [42001-199]
+2019-12-24 21:54:04 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEACHER" not found; SQL statement:
+SELECT * FROM TEACHER [42102-199]
+2019-12-24 21:56:10 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STARNDARD" not found; SQL statement:
+SELECT * from starndard [42102-199]
